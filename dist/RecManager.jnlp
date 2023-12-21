@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="RecManager.jnlp">
+  <information>
+    <title>RecManager</title>
+    <vendor></vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="RecManager.jar" size="30377" download="eager" />
+    <jar href="lib\ant-javafx.jar" size="1535761" download="eager" />
+    <jar href="lib\javafx-mx.jar" size="36044" download="eager" />
+    <jar href="lib\jfxswt.jar" size="33905" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.34-bin.jar" size="960374" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="recmanager.RecManager"  name="RecManager" />
+  <update check="always"/>
+</jnlp>
